@@ -91,7 +91,9 @@ cc.Class({
         initMgr();
         console.log('haha'); 
         this._mainScene = 'loading';
+        //先执行闪屏 然后 再去请求服务器的 版本与本地版本进行比对
         this.showSplash(function(){
+            //url = F:/youlin/client/assets/resources/ver/cv.txt
             var url = cc.url.raw('resources/ver/cv.txt');
             cc.loader.load(url,function(err,data){
                 cc.VERSION = data;
