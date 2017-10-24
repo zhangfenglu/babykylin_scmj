@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ed7edf35-5abf-499f-8b0b-4f46086bcf85" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/scripts/components/AppStart.js" afterPath="$PROJECT_DIR$/client/assets/scripts/components/AppStart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/scenes/loading.fire" afterPath="$PROJECT_DIR$/client/assets/scenes/loading.fire" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/scenes/start.fire" afterPath="$PROJECT_DIR$/client/assets/scenes/start.fire" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="youlin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,9 +26,14 @@
       <file leaf-file-name="AppStart.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/AppStart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.482">
-              <caret line="95" column="64" selection-start-line="95" selection-start-column="64" selection-end-line="95" selection-end-column="64" />
-              <folding />
+            <state vertical-scroll-proportion="0.032">
+              <caret line="162" column="31" selection-start-line="162" selection-start-column="17" selection-end-line="162" selection-end-column="31" />
+              <folding>
+                <element signature="n#!!block;n#urlParse#0" expanded="false" />
+                <element signature="n#!!block;n#initMgr#0" expanded="false" />
+                <element signature="e#2195#2911#0" expanded="false" />
+                <element signature="e#3037#4171#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,8 +82,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1027" />
-    <option name="y" value="474" />
+    <option name="x" value="-1170" />
+    <option name="y" value="149" />
     <option name="width" value="1682" />
     <option name="height" value="1065" />
   </component>
@@ -287,7 +289,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1027" y="474" width="1682" height="1065" extended-state="0" />
+    <frame x="-1170" y="149" width="1682" height="1065" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17166866" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
@@ -318,8 +320,6 @@
           <folding>
             <element signature="n#!!block;n#urlParse#0" expanded="false" />
             <element signature="n#!!block;n#initMgr#0" expanded="false" />
-            <element signature="e#4528#5789#0" expanded="false" />
-            <element signature="e#5822#5874#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -376,9 +376,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/AppStart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.482">
-          <caret line="95" column="64" selection-start-line="95" selection-start-column="64" selection-end-line="95" selection-end-column="64" />
-          <folding />
+        <state vertical-scroll-proportion="0.032">
+          <caret line="162" column="31" selection-start-line="162" selection-start-column="17" selection-end-line="162" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!block;n#urlParse#0" expanded="false" />
+            <element signature="n#!!block;n#initMgr#0" expanded="false" />
+            <element signature="e#2195#2911#0" expanded="false" />
+            <element signature="e#3037#4171#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

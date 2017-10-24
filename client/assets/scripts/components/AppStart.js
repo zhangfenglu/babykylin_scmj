@@ -73,10 +73,6 @@ cc.Class({
         //    readonly: false,    // optional, default is false
         // },
         // ...
-        label: {
-            default: null,
-            type:cc.Label
-        },
 
         loadingProgess:cc.Label,
     },
@@ -188,8 +184,5 @@ cc.Class({
             }
         };
         fn();
-    },
-    log:function(content){
-        this.label.string += content + '\n';
-    },
+    }
 });
