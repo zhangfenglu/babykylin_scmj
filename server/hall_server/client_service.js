@@ -47,6 +47,7 @@ app.get('/login',function(req,res){
 	var account = req.query.account;
 	db.get_user_data(account,function(data){
 		if(data == null){
+			console.log("数据库中暂时未存有账户 " + account + "的信息");
 			http.send(res,0,"ok");
 			return;
 		}
