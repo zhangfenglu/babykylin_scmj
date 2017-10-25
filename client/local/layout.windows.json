@@ -11,7 +11,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 410,
+                "height": 408,
                 "type": "panel",
                 "width": 331
               },
@@ -20,12 +20,12 @@
                 "children": [
                   "assets"
                 ],
-                "height": 400,
+                "height": 403,
                 "type": "panel",
                 "width": 331
               }
             ],
-            "height": 813,
+            "height": 814,
             "type": "dock-v",
             "width": 331
           },
@@ -38,7 +38,7 @@
                     "children": [
                       "scene"
                     ],
-                    "height": 376,
+                    "height": 603,
                     "type": "panel",
                     "width": 395
                   },
@@ -47,12 +47,12 @@
                     "children": [
                       "node-library"
                     ],
-                    "height": 376,
+                    "height": 603,
                     "type": "panel",
                     "width": 223
                   }
                 ],
-                "height": 376,
+                "height": 603,
                 "type": "dock-h",
                 "width": 621
               },
@@ -62,12 +62,12 @@
                   "console",
                   "timeline"
                 ],
-                "height": 434,
+                "height": 208,
                 "type": "panel",
                 "width": 621
               }
             ],
-            "height": 813,
+            "height": 814,
             "type": "dock-v",
             "width": 621
           },
@@ -76,7 +76,7 @@
             "children": [
               "inspector"
             ],
-            "height": 813,
+            "height": 814,
             "type": "panel",
             "width": 300
           }
@@ -88,12 +88,6 @@
       "y": 0,
       "width": 1280,
       "height": 941
-    },
-    "window-1508841076375": {
-      "x": 915,
-      "y": 221,
-      "width": 816,
-      "height": 638
     }
   }
 }
