@@ -81,7 +81,7 @@ app.get('/get_serverinfo',function(req,res){
 });
 
 app.get('/guest',function(req,res){
-	var account = "guest_" + req.query.account;
+	var account = "" + req.query.account;
 	var sign = crypto.md5(account + req.ip + config.ACCOUNT_PRI_KEY);
 	var ret = {
 		errcode:0,
