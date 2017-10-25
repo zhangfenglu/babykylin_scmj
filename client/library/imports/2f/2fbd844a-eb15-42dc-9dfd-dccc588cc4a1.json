@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "logo_01_xingyue",
+    "texture": "1303f604-a193-4808-82bd-5275ba3de71f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      745,
+      294
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      745,
+      294
+    ]
+  }
+}
