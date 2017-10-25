@@ -13,7 +13,7 @@
                 ],
                 "height": 403,
                 "type": "panel",
-                "width": 313
+                "width": 200
               },
               {
                 "active": 0,
@@ -22,12 +22,12 @@
                 ],
                 "height": 406,
                 "type": "panel",
-                "width": 313
+                "width": 200
               }
             ],
             "height": 812,
             "type": "dock-v",
-            "width": 313
+            "width": 200
           },
           {
             "children": [
@@ -38,23 +38,23 @@
                     "children": [
                       "scene"
                     ],
-                    "height": 265,
+                    "height": 305,
                     "type": "panel",
-                    "width": 416
+                    "width": 480
                   },
                   {
                     "active": 0,
                     "children": [
                       "node-library"
                     ],
-                    "height": 265,
+                    "height": 305,
                     "type": "panel",
-                    "width": 324
+                    "width": 373
                   }
                 ],
-                "height": 265,
+                "height": 305,
                 "type": "dock-h",
-                "width": 743
+                "width": 856
               },
               {
                 "active": 0,
@@ -62,14 +62,14 @@
                   "console",
                   "timeline"
                 ],
-                "height": 544,
+                "height": 504,
                 "type": "panel",
-                "width": 743
+                "width": 856
               }
             ],
             "height": 812,
             "type": "dock-v",
-            "width": 743
+            "width": 856
           },
           {
             "active": 0,
@@ -88,12 +88,6 @@
       "y": 67,
       "width": 1423,
       "height": 939
-    },
-    "worker": {
-      "x": 760,
-      "y": 370,
-      "width": 400,
-      "height": 300
     }
   }
 }
