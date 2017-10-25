@@ -11,7 +11,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 408,
+                "height": 403,
                 "type": "panel",
                 "width": 313
               },
@@ -20,12 +20,12 @@
                 "children": [
                   "assets"
                 ],
-                "height": 403,
+                "height": 406,
                 "type": "panel",
                 "width": 313
               }
             ],
-            "height": 814,
+            "height": 812,
             "type": "dock-v",
             "width": 313
           },
@@ -38,7 +38,7 @@
                     "children": [
                       "scene"
                     ],
-                    "height": 370,
+                    "height": 265,
                     "type": "panel",
                     "width": 416
                   },
@@ -47,12 +47,12 @@
                     "children": [
                       "node-library"
                     ],
-                    "height": 370,
+                    "height": 265,
                     "type": "panel",
                     "width": 324
                   }
                 ],
-                "height": 370,
+                "height": 265,
                 "type": "dock-h",
                 "width": 743
               },
@@ -62,12 +62,12 @@
                   "console",
                   "timeline"
                 ],
-                "height": 441,
+                "height": 544,
                 "type": "panel",
                 "width": 743
               }
             ],
-            "height": 814,
+            "height": 812,
             "type": "dock-v",
             "width": 743
           },
@@ -76,7 +76,7 @@
             "children": [
               "inspector"
             ],
-            "height": 814,
+            "height": 812,
             "type": "panel",
             "width": 339
           }
@@ -84,14 +84,14 @@
         "snapshot": true,
         "type": "dock-h"
       },
-      "x": 335,
-      "y": 131,
+      "x": 419,
+      "y": 67,
       "width": 1423,
       "height": 939
     },
     "worker": {
       "x": 760,
-      "y": 390,
+      "y": 370,
       "width": 400,
       "height": 300
     }

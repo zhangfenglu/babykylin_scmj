@@ -2330,8 +2330,8 @@
     "relativePath": "scenes\\loading.fire"
   },
   "7b486d14-13bc-4be8-91e6-2efa50fc8715": {
-    "asset": 1508943257684,
-    "meta": 1508943726797,
+    "asset": 1508951602770,
+    "meta": 1508951602793,
     "relativePath": "scenes\\login.fire"
   },
   "d092d418-dcdd-4823-a232-eca65fe76fff": {
@@ -2554,11 +2554,6 @@
     "meta": 1508943731681,
     "relativePath": "scripts\\ReplayMgr.js"
   },
-  "74d78241-a877-4329-8ea1-72463662e2fe": {
-    "asset": 1507994068916,
-    "meta": 1508943731691,
-    "relativePath": "scripts\\UserMgr.js"
-  },
   "b717fcf0-c348-4dcc-8aaf-35b6f5b7dc31": {
     "asset": 1507994068917,
     "meta": 1508943731721,
@@ -2648,5 +2643,10 @@
     "asset": 1508943640681,
     "meta": 1508943730980,
     "relativePath": "scripts\\components\\LoadingLogic.js"
+  },
+  "74d78241-a877-4329-8ea1-72463662e2fe": {
+    "asset": 1508953597867,
+    "meta": 1508953601466,
+    "relativePath": "scripts\\UserMgr.js"
   }
 }

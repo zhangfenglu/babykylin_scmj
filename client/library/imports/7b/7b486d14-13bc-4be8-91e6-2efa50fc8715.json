@@ -600,7 +600,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1194.73,
+      "width": 1192,
       "height": 40
     },
     "_children": [],
@@ -1494,13 +1494,17 @@
     },
     "_resize": 0,
     "_N$layoutType": 0,
+    "_N$padding": 0,
     "_N$cellSize": {
       "__type__": "cc.Size",
       "width": 40,
       "height": 40
     },
     "_N$startAxis": 0,
-    "_N$padding": 0,
+    "_N$paddingLeft": 0,
+    "_N$paddingRight": 0,
+    "_N$paddingTop": 0,
+    "_N$paddingBottom": 0,
     "_N$spacingX": 0,
     "_N$spacingY": 0,
     "_N$verticalDirection": 1,
@@ -1633,7 +1637,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 156.95,
+      "width": 157,
       "height": 25
     },
     "_children": [],

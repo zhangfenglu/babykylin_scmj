@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed7edf35-5abf-499f-8b0b-4f46086bcf85" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/35/350d3472-f5a5-48a8-9476-edf3f61ffcf5.js.map" afterPath="$PROJECT_DIR$/client/library/imports/35/350d3472-f5a5-48a8-9476-edf3f61ffcf5.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/35/350d3472-f5a5-48a8-9476-edf3f61ffcf5.js" afterPath="$PROJECT_DIR$/client/library/imports/35/350d3472-f5a5-48a8-9476-edf3f61ffcf5.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/4a/4a1acad9-ce88-4334-aa62-bf23a5ccc79e.json" afterPath="$PROJECT_DIR$/client/library/imports/4a/4a1acad9-ce88-4334-aa62-bf23a5ccc79e.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/scripts/components/LoadingLogic.js" afterPath="$PROJECT_DIR$/client/assets/scripts/components/LoadingLogic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/temp/scripts/assets/scripts/components/LoadingLogic.js" afterPath="$PROJECT_DIR$/client/temp/scripts/assets/scripts/components/LoadingLogic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/74/74d78241-a877-4329-8ea1-72463662e2fe.js.map" afterPath="$PROJECT_DIR$/client/library/imports/74/74d78241-a877-4329-8ea1-72463662e2fe.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/74/74d78241-a877-4329-8ea1-72463662e2fe.js" afterPath="$PROJECT_DIR$/client/library/imports/74/74d78241-a877-4329-8ea1-72463662e2fe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/7b/7b486d14-13bc-4be8-91e6-2efa50fc8715.json" afterPath="$PROJECT_DIR$/client/library/imports/7b/7b486d14-13bc-4be8-91e6-2efa50fc8715.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/scripts/UserMgr.js" afterPath="$PROJECT_DIR$/client/assets/scripts/UserMgr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/temp/scripts/assets/scripts/UserMgr.js" afterPath="$PROJECT_DIR$/client/temp/scripts/assets/scripts/UserMgr.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/bundle.project.js" afterPath="$PROJECT_DIR$/client/library/bundle.project.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/local/layout.code-editor.json" afterPath="$PROJECT_DIR$/client/local/layout.code-editor.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/local/layout.windows.json" afterPath="$PROJECT_DIR$/client/local/layout.windows.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/scenes/loading.fire" afterPath="$PROJECT_DIR$/client/assets/scenes/loading.fire" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/local/local.json" afterPath="$PROJECT_DIR$/client/local/local.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/scenes/login.fire" afterPath="$PROJECT_DIR$/client/assets/scenes/login.fire" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/local/logs/project.log" afterPath="$PROJECT_DIR$/client/local/logs/project.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/uuid-to-mtime.json" afterPath="$PROJECT_DIR$/client/library/uuid-to-mtime.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -37,22 +38,96 @@
       <file leaf-file-name="AppStart.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/AppStart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.745763">
-              <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMgr.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/assets/scripts/UserMgr.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4505988">
+              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnysdkMgr.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/assets/scripts/AnysdkMgr.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="123" column="23" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoadingLogic.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/LoadingLogic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/Login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="90" column="25" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
               <folding>
-                <element signature="n#!!block;n#urlParse#0" expanded="false" />
-                <element signature="n#!!block;n#initMgr#0" expanded="false" />
+                <element signature="e#41#788#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoadingLogic.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/LoadingLogic.js">
+      <file leaf-file-name="Net.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/assets/scripts/Net.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.5311615">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+              <folding>
+                <element signature="e#21#62#0" expanded="false" />
+                <element signature="e#1007#2408#0" expanded="false" />
+                <element signature="e#1074#1227#0" expanded="false" />
+                <element signature="e#1330#1390#0" expanded="false" />
+                <element signature="e#1441#1532#0" expanded="false" />
+                <element signature="e#1599#1731#0" expanded="false" />
+                <element signature="e#1799#1861#0" expanded="false" />
+                <element signature="e#1918#2351#0" expanded="false" />
+                <element signature="e#2015#2337#0" expanded="false" />
+                <element signature="e#2060#2134#0" expanded="false" />
+                <element signature="e#2159#2319#0" expanded="false" />
+                <element signature="e#2451#3503#0" expanded="false" />
+                <element signature="e#2499#2723#0" expanded="false" />
+                <element signature="e#2861#3490#0" expanded="false" />
+                <element signature="e#2958#3010#0" expanded="false" />
+                <element signature="e#3051#3179#0" expanded="false" />
+                <element signature="e#3085#3161#0" expanded="false" />
+                <element signature="e#3236#3459#0" expanded="false" />
+                <element signature="e#3270#3441#0" expanded="false" />
+                <element signature="e#3341#3410#0" expanded="false" />
+                <element signature="e#3538#3844#0" expanded="false" />
+                <element signature="e#3574#3834#0" expanded="false" />
+                <element signature="e#3638#3761#0" expanded="false" />
+                <element signature="e#3878#4017#0" expanded="false" />
+                <element signature="e#3904#4007#0" expanded="false" />
+                <element signature="e#4052#4432#0" expanded="false" />
+                <element signature="e#4167#4265#0" expanded="false" />
+                <element signature="e#4328#4422#0" expanded="false" />
+                <element signature="e#4474#5827#0" expanded="false" />
+                <element signature="e#4538#4621#0" expanded="false" />
+                <element signature="e#4700#4859#0" expanded="false" />
+                <element signature="e#4964#5112#0" expanded="false" />
+                <element signature="e#4989#5098#0" expanded="false" />
+                <element signature="e#5132#5817#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,7 +136,7 @@
         <entry file="file://$PROJECT_DIR$/client/assets/scripts/HTTP.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -70,7 +145,7 @@
       <file leaf-file-name="account_server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/account_server/account_server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2372882">
+            <state vertical-scroll-proportion="0.0">
               <caret line="70" column="6" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
               <folding>
                 <element signature="e#905#1410#0" expanded="false" />
@@ -91,6 +166,7 @@
         <option value="$PROJECT_DIR$/client/assets/scripts/HTTP.js" />
         <option value="$PROJECT_DIR$/client/assets/scripts/components/AppStart.js" />
         <option value="$PROJECT_DIR$/client/assets/scripts/components/LoadingLogic.js" />
+        <option value="$PROJECT_DIR$/client/assets/scripts/UserMgr.js" />
       </list>
     </option>
   </component>
@@ -102,10 +178,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1968" />
-    <option name="y" value="62" />
-    <option name="width" value="1682" />
-    <option name="height" value="1065" />
+    <option name="x" value="280" />
+    <option name="y" value="115" />
+    <option name="width" value="1276" />
+    <option name="height" value="855" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -131,7 +207,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -226,38 +301,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="youlin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="youlin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="3rdparty" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,6 +345,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
   </component>
@@ -312,20 +368,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1968" y="62" width="1682" height="1065" extended-state="1" />
+    <frame x="280" y="115" width="1276" height="855" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17166866" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20967741" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878837" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20967741" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -344,6 +406,40 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/AppStart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/LoadingLogic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/assets/scripts/HTTP.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/account_server/account_server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="6" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
+          <folding>
+            <element signature="e#905#1410#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/temp/scripts/assets/scripts/components/AppStart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7469478">
@@ -359,7 +455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -367,7 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33273703">
           <caret line="614" column="0" selection-start-line="614" selection-start-column="0" selection-end-line="614" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -375,13 +469,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.6350627">
           <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/account_server/account_server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2372882">
+        <state vertical-scroll-proportion="0.0">
           <caret line="70" column="6" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
           <folding>
             <element signature="e#905#1410#0" expanded="false" />
@@ -389,37 +482,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/assets/scripts/HTTP.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/creator.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3502825">
           <caret line="6341" column="21" selection-start-line="6341" selection-start-column="21" selection-end-line="6341" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/AppStart.js">
+    <entry file="file://$PROJECT_DIR$/client/assets/scripts/Net.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.745763">
-          <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
           <folding>
-            <element signature="n#!!block;n#urlParse#0" expanded="false" />
-            <element signature="n#!!block;n#initMgr#0" expanded="false" />
+            <element signature="e#21#62#0" expanded="false" />
+            <element signature="e#1007#2408#0" expanded="false" />
+            <element signature="e#1074#1227#0" expanded="false" />
+            <element signature="e#1330#1390#0" expanded="false" />
+            <element signature="e#1441#1532#0" expanded="false" />
+            <element signature="e#1599#1731#0" expanded="false" />
+            <element signature="e#1799#1861#0" expanded="false" />
+            <element signature="e#1918#2351#0" expanded="false" />
+            <element signature="e#2015#2337#0" expanded="false" />
+            <element signature="e#2060#2134#0" expanded="false" />
+            <element signature="e#2159#2319#0" expanded="false" />
+            <element signature="e#2451#3503#0" expanded="false" />
+            <element signature="e#2499#2723#0" expanded="false" />
+            <element signature="e#2861#3490#0" expanded="false" />
+            <element signature="e#2958#3010#0" expanded="false" />
+            <element signature="e#3051#3179#0" expanded="false" />
+            <element signature="e#3085#3161#0" expanded="false" />
+            <element signature="e#3236#3459#0" expanded="false" />
+            <element signature="e#3270#3441#0" expanded="false" />
+            <element signature="e#3341#3410#0" expanded="false" />
+            <element signature="e#3538#3844#0" expanded="false" />
+            <element signature="e#3574#3834#0" expanded="false" />
+            <element signature="e#3638#3761#0" expanded="false" />
+            <element signature="e#3878#4017#0" expanded="false" />
+            <element signature="e#3904#4007#0" expanded="false" />
+            <element signature="e#4052#4432#0" expanded="false" />
+            <element signature="e#4167#4265#0" expanded="false" />
+            <element signature="e#4328#4422#0" expanded="false" />
+            <element signature="e#4474#5827#0" expanded="false" />
+            <element signature="e#4538#4621#0" expanded="false" />
+            <element signature="e#4700#4859#0" expanded="false" />
+            <element signature="e#4964#5112#0" expanded="false" />
+            <element signature="e#4989#5098#0" expanded="false" />
+            <element signature="e#5132#5817#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/LoadingLogic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5311615">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/assets/scripts/HTTP.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/assets/scripts/AnysdkMgr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="123" column="23" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/AppStart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="90" column="25" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
+          <folding>
+            <element signature="e#41#788#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/assets/scripts/UserMgr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4505988">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
           <folding />
         </state>
       </provider>

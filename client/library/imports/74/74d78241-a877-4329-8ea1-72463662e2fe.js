@@ -16,14 +16,49 @@ cc.Class({
         oldRoomId: null
     },
 
+    //随机生成 num 位 的随机数 含大小写字母及数字
+    getRandomAccount: function getRandomAccount(num) {
+        /**
+         * 返回一个字母
+         */
+        function getCharacter(flag) {
+            var character = "";
+            if (flag === "lower") {
+                character = String.fromCharCode(Math.floor(Math.random() * 26) + "a".charCodeAt(0));
+            }
+            if (flag === "upper") {
+                character = String.fromCharCode(Math.floor(Math.random() * 26) + "A".charCodeAt(0));
+            }
+            return character;
+        }
+
+        var str = "";
+        for (var i = 0; i < num; i++) {
+            var flag = "lower";
+            var random = Math.floor(Math.random() * 3);
+            if (random == 0) {
+                flag = "upper";
+                str += getCharacter(flag);
+            } else if (random == 1) {
+                str += getCharacter(flag);
+            } else {
+                str += Math.floor(Math.random() * 10);
+            }
+        }
+        return str;
+    },
+
     guestAuth: function guestAuth() {
         var account = cc.args["account"];
+        console.log("账号：" + account);
         if (account == null) {
             account = cc.sys.localStorage.getItem("account");
         }
 
         if (account == null) {
-            account = Date.now();
+            //account = Date.now();
+            account = this.getRandomAccount(8);
+            console.log("账号：" + account);
             cc.sys.localStorage.setItem("account", account);
         }
 
