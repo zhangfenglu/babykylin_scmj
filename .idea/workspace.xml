@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed7edf35-5abf-499f-8b0b-4f46086bcf85" name="Default" comment="" />
+    <list default="true" id="ed7edf35-5abf-499f-8b0b-4f46086bcf85" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/35/350d3472-f5a5-48a8-9476-edf3f61ffcf5.js.map" afterPath="$PROJECT_DIR$/client/library/imports/35/350d3472-f5a5-48a8-9476-edf3f61ffcf5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/35/350d3472-f5a5-48a8-9476-edf3f61ffcf5.js" afterPath="$PROJECT_DIR$/client/library/imports/35/350d3472-f5a5-48a8-9476-edf3f61ffcf5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/4a/4a1acad9-ce88-4334-aa62-bf23a5ccc79e.json" afterPath="$PROJECT_DIR$/client/library/imports/4a/4a1acad9-ce88-4334-aa62-bf23a5ccc79e.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/scripts/components/LoadingLogic.js" afterPath="$PROJECT_DIR$/client/assets/scripts/components/LoadingLogic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/temp/scripts/assets/scripts/components/LoadingLogic.js" afterPath="$PROJECT_DIR$/client/temp/scripts/assets/scripts/components/LoadingLogic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/bundle.project.js" afterPath="$PROJECT_DIR$/client/library/bundle.project.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/local/layout.windows.json" afterPath="$PROJECT_DIR$/client/local/layout.windows.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/scenes/loading.fire" afterPath="$PROJECT_DIR$/client/assets/scenes/loading.fire" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/local/local.json" afterPath="$PROJECT_DIR$/client/local/local.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/local/logs/project.log" afterPath="$PROJECT_DIR$/client/local/logs/project.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/uuid-to-mtime.json" afterPath="$PROJECT_DIR$/client/library/uuid-to-mtime.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="youlin.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,15 +34,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AppStart.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppStart.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/AppStart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.382">
-              <caret line="146" column="32" selection-start-line="146" selection-start-column="32" selection-end-line="146" selection-end-column="32" />
+            <state vertical-scroll-proportion="-9.745763">
+              <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
               <folding>
                 <element signature="n#!!block;n#urlParse#0" expanded="false" />
                 <element signature="n#!!block;n#initMgr#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoadingLogic.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/LoadingLogic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.5311615">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,6 +90,7 @@
         <option value="$PROJECT_DIR$/client/temp/scripts/assets/scripts/components/AppStart.js" />
         <option value="$PROJECT_DIR$/client/assets/scripts/HTTP.js" />
         <option value="$PROJECT_DIR$/client/assets/scripts/components/AppStart.js" />
+        <option value="$PROJECT_DIR$/client/assets/scripts/components/LoadingLogic.js" />
       </list>
     </option>
   </component>
@@ -78,8 +102,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1532" />
-    <option name="y" value="148" />
+    <option name="x" value="-1968" />
+    <option name="y" value="62" />
     <option name="width" value="1682" />
     <option name="height" value="1065" />
   </component>
@@ -275,6 +299,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ed7edf35-5abf-499f-8b0b-4f46086bcf85" name="Default" comment="" />
@@ -285,14 +312,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1532" y="148" width="1682" height="1065" extended-state="0" />
+    <frame x="-1968" y="62" width="1682" height="1065" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17166866" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36774194" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20967741" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -300,6 +327,14 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -324,14 +359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/creator.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34364262">
-          <caret line="7191" column="8" selection-start-line="7191" selection-start-column="8" selection-end-line="7191" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -370,14 +397,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/creator.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3502825">
+          <caret line="6341" column="21" selection-start-line="6341" selection-start-column="21" selection-end-line="6341" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/AppStart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.382">
-          <caret line="146" column="32" selection-start-line="146" selection-start-column="32" selection-end-line="146" selection-end-column="32" />
+        <state vertical-scroll-proportion="-9.745763">
+          <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
           <folding>
             <element signature="n#!!block;n#urlParse#0" expanded="false" />
             <element signature="n#!!block;n#initMgr#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/LoadingLogic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5311615">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>

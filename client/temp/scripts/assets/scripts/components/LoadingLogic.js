@@ -29,6 +29,7 @@ cc.Class({
         this._isLoading = true;
         var self = this;
 
+        //loadResAll 执行之后才会 执行onProgress
         cc.loader.onProgress = function (completedCount, totalCount, item) {
             //console.log("completedCount:" + completedCount + ",totalCount:" + totalCount );
             if (self._isLoading) {
@@ -44,13 +45,15 @@ cc.Class({
     onLoadComplete: function onLoadComplete() {
         this._isLoading = false;
         this._stateStr = "准备登陆";
+        //this._stateStr = "";
         cc.director.loadScene("login");
         cc.loader.onComplete = null;
+        //this.tipLabel.string = "登陆中请稍等";
     },
 
     // called every frame, uncomment this function to activate update callback
     update: function update(dt) {
-        if (this._stateStr.length == 0) {
+        if (this._stateStr.length === 0) {
             return;
         }
         this.tipLabel.string = this._stateStr + ' ';

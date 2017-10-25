@@ -2325,8 +2325,8 @@
     "relativePath": "scenes\\hall.fire"
   },
   "4a1acad9-ce88-4334-aa62-bf23a5ccc79e": {
-    "asset": 1508853171734,
-    "meta": 1508853171743,
+    "asset": 1508901470446,
+    "meta": 1508901470465,
     "relativePath": "scenes\\loading.fire"
   },
   "7b486d14-13bc-4be8-91e6-2efa50fc8715": {
@@ -2438,11 +2438,6 @@
     "asset": 1508814035005,
     "meta": 1508819217852,
     "relativePath": "scripts\\components\\JoinGameInput.js"
-  },
-  "350d3472-f5a5-48a8-9476-edf3f61ffcf5": {
-    "asset": 1508814035005,
-    "meta": 1508819217872,
-    "relativePath": "scripts\\components\\LoadingLogic.js"
   },
   "572a741f-87af-4df5-92d7-90db6100d7e2": {
     "asset": 1508814035006,
@@ -2648,5 +2643,10 @@
     "asset": 1508854597648,
     "meta": 1508814034952,
     "relativePath": "resources\\ver\\cv.txt"
+  },
+  "350d3472-f5a5-48a8-9476-edf3f61ffcf5": {
+    "asset": 1508904830270,
+    "meta": 1508904830453,
+    "relativePath": "scripts\\components\\LoadingLogic.js"
   }
 }
