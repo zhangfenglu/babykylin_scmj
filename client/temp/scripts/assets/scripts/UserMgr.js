@@ -17,7 +17,8 @@ cc.Class({
         sex: 0,
         roomData: null,
 
-        oldRoomId: null
+        oldRoomId: null,
+        uid: 0
     },
 
     //随机生成 num 位 的随机数 含大小写字母及数字
@@ -102,6 +103,7 @@ cc.Class({
                     self.roomData = ret.roomid;
                     self.sex = ret.sex;
                     self.ip = ret.ip;
+                    self.uid = ret.uid;
                     cc.director.loadScene("hall");
                 }
             }

@@ -32,6 +32,7 @@ cc.Class({
     //    readonly: false,    // optional, default is false
     // },
     // ...
+
     initNetHandlers: function initNetHandlers() {
         var self = this;
     },
@@ -174,7 +175,8 @@ cc.Class({
         this.lblName.string = cc.vv.userMgr.userName;
         this.lblMoney.string = cc.vv.userMgr.coins;
         this.lblGems.string = cc.vv.userMgr.gems;
-        this.lblID.string = "ID:" + cc.vv.userMgr.userId;
+        console.log("玩家ID：==========" + cc.vv.userMgr.uid);
+        this.lblID.string = "ID:" + cc.vv.userMgr.uid;
     },
 
     onBtnClicked: function onBtnClicked(event) {
