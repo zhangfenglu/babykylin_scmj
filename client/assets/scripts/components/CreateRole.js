@@ -48,7 +48,8 @@ cc.Class({
         ];
         var idx = Math.floor(Math.random() * (names.length - 1));
         var idx2 = Math.floor(Math.random() * (names2.length - 1));
-        this.inputName.string = names[idx] + names2[idx2];
+        //this.inputName.string = names[idx] + names2[idx2];
+        this.inputName.string = cc.vv.userMgr.getRandomAccount(8);
     },
 
     // use this for initialization

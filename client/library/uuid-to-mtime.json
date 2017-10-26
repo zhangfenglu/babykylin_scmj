@@ -2095,8 +2095,8 @@
     "relativePath": "scenes"
   },
   "5fad28f0-3c44-4f5e-9351-381fe3fb522c": {
-    "asset": 1508990128290,
-    "meta": 1508990128296,
+    "asset": 1509004908265,
+    "meta": 1509004908275,
     "relativePath": "scenes\\createrole.fire"
   },
   "efb1084f-0b5a-4980-b187-1e949555cb55": {
@@ -2163,11 +2163,6 @@
     "asset": 1508929577967,
     "meta": 1508984211963,
     "relativePath": "scripts\\components\\CheckBox.js"
-  },
-  "5d56b158-cbf4-446f-bee9-402abd60787a": {
-    "asset": 1508929577968,
-    "meta": 1508984212010,
-    "relativePath": "scripts\\components\\CreateRole.js"
   },
   "eec071ec-2f8a-419f-9fcf-893dd26017b0": {
     "asset": 1508929577968,
@@ -2648,5 +2643,10 @@
     "asset": 1478085606000,
     "meta": 1508986367938,
     "relativePath": "prefab\\webview.prefab"
+  },
+  "5d56b158-cbf4-446f-bee9-402abd60787a": {
+    "asset": 1508995893715,
+    "meta": 1508997212378,
+    "relativePath": "scripts\\components\\CreateRole.js"
   }
 }

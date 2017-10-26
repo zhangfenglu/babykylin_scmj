@@ -405,7 +405,7 @@
     "_N$returnType": 1,
     "_N$inputFlag": 3,
     "_N$inputMode": 6,
-    "_N$fontSize": 36,
+    "_N$fontSize": 32,
     "_N$lineHeight": 40,
     "_N$fontColor": {
       "__type__": "cc.Color",
@@ -415,7 +415,7 @@
       "a": 255
     },
     "_N$placeholder": "东方先生",
-    "_N$placeholderFontSize": 36,
+    "_N$placeholderFontSize": 32,
     "_N$placeholderFontColor": {
       "__type__": "cc.Color",
       "r": 150,
