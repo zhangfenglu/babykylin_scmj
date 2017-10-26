@@ -175,7 +175,6 @@ cc.Class({
         this.lblName.string = cc.vv.userMgr.userName;
         this.lblMoney.string = cc.vv.userMgr.coins;
         this.lblGems.string = cc.vv.userMgr.gems;
-        console.log("玩家ID：==========" + cc.vv.userMgr.uid);
         this.lblID.string = "ID:" + cc.vv.userMgr.uid;
     },
 
@@ -187,7 +186,7 @@ cc.Class({
         } else if (event.target.name == "btn_xiaoxi") {
             this.xiaoxiWin.active = true;
         } else if (event.target.name == "head") {
-            cc.vv.userinfoShow.show(cc.vv.userMgr.userName, cc.vv.userMgr.userId, this.sprHeadImg, cc.vv.userMgr.sex, cc.vv.userMgr.ip);
+            cc.vv.userinfoShow.show(cc.vv.userMgr.userName, cc.vv.userMgr.uid, this.sprHeadImg, cc.vv.userMgr.sex, cc.vv.userMgr.ip);
         }
     },
 
