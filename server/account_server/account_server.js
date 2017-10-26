@@ -68,6 +68,7 @@ app.get('/get_version',function(req,res){
 	var ret = {
 		version:config.VERSION,
 	}
+	console.log("客户端请求服务器 版本号");
 	send(res,ret);
 });
 
@@ -90,6 +91,7 @@ app.get('/guest',function(req,res){
 		halladdr:hallAddr,
 		sign:sign
 	}
+	console.log("游客登录，向客户端发送的消息：" + JSON.stringify(ret));
 	send(res,ret);
 });
 

@@ -38,20 +38,20 @@ app.get('/login',function(req,res){
 	if(!check_account(req,res)){
 		return;
 	}
-	
 	var ip = req.ip;
 	if(ip.indexOf("::ffff:") != -1){
 		ip = ip.substr(7);
 	}
-	
+
 	var account = req.query.account;
+	console.log("账户：" + account + " 准备登录大厅");
 	db.get_user_data(account,function(data){
 		if(data == null){
 			console.log("数据库中暂时未存有账户 " + account + "的信息");
 			http.send(res,0,"ok");
 			return;
 		}
-
+		data.userid = data.userid + 100000;//userid 从10000起
 		var ret = {
 			account:data.account,
 			userid:data.userid,
@@ -63,7 +63,6 @@ app.get('/login',function(req,res){
 			ip:ip,
 			sex:data.sex,
 		};
-
 		db.get_room_id_of_user(data.userid,function(roomId){
 			//如果用户处于房间中，则需要对其房间进行检查。 如果房间还在，则通知用户进入
 			if(roomId != null){
@@ -80,6 +79,7 @@ app.get('/login',function(req,res){
 				});
 			}
 			else {
+				console.log("账户：" + account + " 成功进入大厅，且未在游戏房间服");
 				http.send(res,0,"ok",ret);
 			}
 		});
@@ -97,17 +97,20 @@ app.get('/create_user',function(req,res){
 	console.log(name);
 
 	db.is_user_exist(account,function(ret){
+		console.log("服务器正在查询该账户：" + account + "是否存在");
 		if(!ret){
 			db.create_user(account,name,coins,gems,0,null,function(ret){
 				if (ret == null) {
 					http.send(res,2,"system error.");
 				}
 				else{
-					http.send(res,0,"ok");					
+					console.log("账户：" + account + " 数据已成功写到数据库");
+					http.send(res,0,"ok");
 				}
 			});
 		}
 		else{
+			console.log("数据库里 已存在该账户:" + account);
 			http.send(res,1,"account have already exist.");
 		}
 	});
