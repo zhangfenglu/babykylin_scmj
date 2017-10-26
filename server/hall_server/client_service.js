@@ -51,7 +51,6 @@ app.get('/login',function(req,res){
 			http.send(res,0,"ok");
 			return;
 		}
-		data.userid = data.userid + 100000;//userid 从10000起
 		var ret = {
 			account:data.account,
 			userid:data.userid,
@@ -62,6 +61,7 @@ app.get('/login',function(req,res){
 			gems:data.gems,
 			ip:ip,
 			sex:data.sex,
+			uid:data.userid + 100000
 		};
 		db.get_room_id_of_user(data.userid,function(roomId){
 			//如果用户处于房间中，则需要对其房间进行检查。 如果房间还在，则通知用户进入
