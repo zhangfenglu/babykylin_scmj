@@ -62,6 +62,7 @@ function initMgr() {
 
     //新增静态变量 并加入注释
     cc.vv.wc = null; //正在登陆游戏时的 加载窗口
+    cc.vv.userinfoShow = null; //个人头像消息 窗口
 }
 
 cc.Class({

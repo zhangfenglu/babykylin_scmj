@@ -27,7 +27,7 @@ cc.Class({
     //    displayName: 'Foo', // optional
     //    readonly: false,    // optional, default is false
     // },
-    // ... 
+    // ...
     initNetHandlers: function initNetHandlers() {
         var self = this;
     },
@@ -68,7 +68,9 @@ cc.Class({
         imgLoader.setUserID(cc.vv.userMgr.userId);
         cc.vv.utils.addClickEvent(this.sprHeadImg.node, this.node, "Hall", "onBtnClicked");
 
+        console.log("先绑定头像控件脚本");
         this.addComponent("UserInfoShow");
+        console.log("绑定头像控件脚本完成");
 
         this.initButtonHandler("Canvas/right_bottom/btn_shezhi");
         this.initButtonHandler("Canvas/right_bottom/btn_help");

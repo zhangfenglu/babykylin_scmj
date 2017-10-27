@@ -1,5 +1,5 @@
 cc.Class({
-    extends: cc.Component,
+    extends: cc.Component, 
 
     properties: {
         // foo: {
@@ -20,8 +20,9 @@ cc.Class({
         if(cc.vv == null){
             return;
         }
-        
-        this._userinfo = cc.find("Canvas/userinfo");
+        console.log("执行绑定头像控件脚本");
+        //this._userinfo = cc.find("Canvas/userinfo");
+        this._userinfo =  this.node.getChildByName("userinfo");
         this._userinfo.active = false;
         cc.vv.utils.addClickEvent(this._userinfo,this.node,"UserInfoShow","onClicked");
         

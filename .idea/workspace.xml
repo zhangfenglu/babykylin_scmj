@@ -2,33 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed7edf35-5abf-499f-8b0b-4f46086bcf85" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/5d/5d56b158-cbf4-446f-bee9-402abd60787a.js.map" afterPath="$PROJECT_DIR$/client/library/imports/5d/5d56b158-cbf4-446f-bee9-402abd60787a.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/5d/5d56b158-cbf4-446f-bee9-402abd60787a.js" afterPath="$PROJECT_DIR$/client/library/imports/5d/5d56b158-cbf4-446f-bee9-402abd60787a.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/5f/5fad28f0-3c44-4f5e-9351-381fe3fb522c.json" afterPath="$PROJECT_DIR$/client/library/imports/5f/5fad28f0-3c44-4f5e-9351-381fe3fb522c.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/6e/6edb38e3-c7e1-417a-94b5-9a4d71283176.js.map" afterPath="$PROJECT_DIR$/client/library/imports/6e/6edb38e3-c7e1-417a-94b5-9a4d71283176.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/6e/6edb38e3-c7e1-417a-94b5-9a4d71283176.js" afterPath="$PROJECT_DIR$/client/library/imports/6e/6edb38e3-c7e1-417a-94b5-9a4d71283176.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/74/74d78241-a877-4329-8ea1-72463662e2fe.js.map" afterPath="$PROJECT_DIR$/client/library/imports/74/74d78241-a877-4329-8ea1-72463662e2fe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/74/74d78241-a877-4329-8ea1-72463662e2fe.js" afterPath="$PROJECT_DIR$/client/library/imports/74/74d78241-a877-4329-8ea1-72463662e2fe.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/scripts/components/AppStart.js" afterPath="$PROJECT_DIR$/client/assets/scripts/components/AppStart.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/temp/scripts/assets/scripts/components/AppStart.js" afterPath="$PROJECT_DIR$/client/temp/scripts/assets/scripts/components/AppStart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/temp/scripts/assets/scripts/components/CreateRole.js" afterPath="$PROJECT_DIR$/client/temp/scripts/assets/scripts/components/CreateRole.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/scripts/components/Hall.js" afterPath="$PROJECT_DIR$/client/assets/scripts/components/Hall.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/temp/scripts/assets/scripts/components/Hall.js" afterPath="$PROJECT_DIR$/client/temp/scripts/assets/scripts/components/Hall.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/scripts/components/UserInfoShow.js" afterPath="$PROJECT_DIR$/client/assets/scripts/components/UserInfoShow.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/temp/scripts/assets/scripts/components/UserInfoShow.js" afterPath="$PROJECT_DIR$/client/temp/scripts/assets/scripts/components/UserInfoShow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/temp/scripts/assets/scripts/UserMgr.js" afterPath="$PROJECT_DIR$/client/temp/scripts/assets/scripts/UserMgr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/temp/scripts/assets/scripts/Utils.js" afterPath="$PROJECT_DIR$/client/temp/scripts/assets/scripts/Utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/local/assets.json" afterPath="$PROJECT_DIR$/client/local/assets.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/b6/b688b658-a057-49c4-a136-4ed766379481.js.map" afterPath="$PROJECT_DIR$/client/library/imports/b6/b688b658-a057-49c4-a136-4ed766379481.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/b6/b688b658-a057-49c4-a136-4ed766379481.js" afterPath="$PROJECT_DIR$/client/library/imports/b6/b688b658-a057-49c4-a136-4ed766379481.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/b7/b717fcf0-c348-4dcc-8aaf-35b6f5b7dc31.js.map" afterPath="$PROJECT_DIR$/client/library/imports/b7/b717fcf0-c348-4dcc-8aaf-35b6f5b7dc31.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/b7/b717fcf0-c348-4dcc-8aaf-35b6f5b7dc31.js" afterPath="$PROJECT_DIR$/client/library/imports/b7/b717fcf0-c348-4dcc-8aaf-35b6f5b7dc31.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/bundle.project.js" afterPath="$PROJECT_DIR$/client/library/bundle.project.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/ef/efb1084f-0b5a-4980-b187-1e949555cb55.json" afterPath="$PROJECT_DIR$/client/library/imports/ef/efb1084f-0b5a-4980-b187-1e949555cb55.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/fe/fe4f1e82-026a-4195-9a61-9e9b07d444ef.js.map" afterPath="$PROJECT_DIR$/client/library/imports/fe/fe4f1e82-026a-4195-9a61-9e9b07d444ef.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/imports/fe/fe4f1e82-026a-4195-9a61-9e9b07d444ef.js" afterPath="$PROJECT_DIR$/client/library/imports/fe/fe4f1e82-026a-4195-9a61-9e9b07d444ef.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/local/hierarchy.json" afterPath="$PROJECT_DIR$/client/local/hierarchy.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/local/layout.windows.json" afterPath="$PROJECT_DIR$/client/local/layout.windows.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/local/local.json" afterPath="$PROJECT_DIR$/client/local/local.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/local/logs/project.log" afterPath="$PROJECT_DIR$/client/local/logs/project.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/library/uuid-to-mtime.json" afterPath="$PROJECT_DIR$/client/library/uuid-to-mtime.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -52,11 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AppStart.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppStart.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/AppStart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58900523">
-              <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -66,19 +54,7 @@
         <entry file="file://$PROJECT_DIR$/client/assets/scripts/Utils.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-              <folding>
-                <marker date="1509117494713" expanded="true" signature="9:2626" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnysdkMgr.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/assets/scripts/AnysdkMgr.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="97" column="48" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="50" />
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -117,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/WaitingConnection.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="15" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="16" />
+              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -135,11 +111,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hall.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Hall.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/Hall.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-33.38983">
-              <caret line="219" column="16" selection-start-line="219" selection-start-column="8" selection-end-line="219" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.5439094">
+              <caret line="211" column="127" selection-start-line="211" selection-start-column="127" selection-end-line="211" selection-end-column="127" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OnBack.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/OnBack.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="55" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -149,7 +135,7 @@
         <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/UserInfoShow.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -190,11 +176,11 @@
         <option value="$PROJECT_DIR$/server/account_server/account_server.js" />
         <option value="$PROJECT_DIR$/server/hall_server/client_service.js" />
         <option value="$PROJECT_DIR$/client/assets/scripts/UserMgr.js" />
-        <option value="$PROJECT_DIR$/client/assets/scripts/components/UserInfoShow.js" />
         <option value="$PROJECT_DIR$/client/assets/scripts/Utils.js" />
-        <option value="$PROJECT_DIR$/client/assets/scripts/components/Hall.js" />
         <option value="$PROJECT_DIR$/server/utils/db.js" />
         <option value="$PROJECT_DIR$/client/assets/scripts/components/AppStart.js" />
+        <option value="$PROJECT_DIR$/client/assets/scripts/components/UserInfoShow.js" />
+        <option value="$PROJECT_DIR$/client/assets/scripts/components/Hall.js" />
       </list>
     </option>
   </component>
@@ -206,10 +192,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="788" />
-    <option name="y" value="33" />
+    <option name="x" value="167" />
+    <option name="y" value="152" />
     <option name="width" value="1577" />
-    <option name="height" value="950" />
+    <option name="height" value="804" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -499,13 +485,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="788" y="33" width="1577" height="950" extended-state="0" />
+    <frame x="167" y="152" width="1577" height="804" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23521768" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31839257" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1453856" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -517,7 +504,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19976771" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -539,21 +525,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/AppStart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/assets/scripts/Utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding>
-            <marker date="1509117494713" expanded="true" signature="9:2626" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -714,6 +690,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding>
+            <element signature="e#21#62#0" expanded="false" />
+            <element signature="e#1007#2408#0" expanded="false" />
+            <element signature="e#1074#1227#0" expanded="false" />
+            <element signature="e#1330#1390#0" expanded="false" />
+            <element signature="e#1441#1532#0" expanded="false" />
+            <element signature="e#1599#1731#0" expanded="false" />
+            <element signature="e#1799#1861#0" expanded="false" />
+            <element signature="e#1918#2351#0" expanded="false" />
+            <element signature="e#2015#2337#0" expanded="false" />
+            <element signature="e#2060#2134#0" expanded="false" />
+            <element signature="e#2159#2319#0" expanded="false" />
+            <element signature="e#2451#3503#0" expanded="false" />
+            <element signature="e#2499#2723#0" expanded="false" />
+            <element signature="e#2861#3490#0" expanded="false" />
+            <element signature="e#2958#3010#0" expanded="false" />
+            <element signature="e#3051#3179#0" expanded="false" />
+            <element signature="e#3085#3161#0" expanded="false" />
+            <element signature="e#3236#3459#0" expanded="false" />
+            <element signature="e#3270#3441#0" expanded="false" />
+            <element signature="e#3341#3410#0" expanded="false" />
+            <element signature="e#3538#3844#0" expanded="false" />
+            <element signature="e#3574#3834#0" expanded="false" />
+            <element signature="e#3638#3761#0" expanded="false" />
+            <element signature="e#3878#4017#0" expanded="false" />
+            <element signature="e#3904#4007#0" expanded="false" />
+            <element signature="e#4052#4432#0" expanded="false" />
+            <element signature="e#4167#4265#0" expanded="false" />
+            <element signature="e#4328#4422#0" expanded="false" />
+            <element signature="e#4474#5827#0" expanded="false" />
+            <element signature="e#4538#4621#0" expanded="false" />
+            <element signature="e#4700#4859#0" expanded="false" />
+            <element signature="e#4964#5112#0" expanded="false" />
+            <element signature="e#4989#5098#0" expanded="false" />
+            <element signature="e#5132#5817#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -737,6 +749,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -773,6 +786,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding>
+            <element signature="e#21#62#0" expanded="false" />
+            <element signature="e#1007#2408#0" expanded="false" />
+            <element signature="e#1074#1227#0" expanded="false" />
+            <element signature="e#1330#1390#0" expanded="false" />
+            <element signature="e#1441#1532#0" expanded="false" />
+            <element signature="e#1599#1731#0" expanded="false" />
+            <element signature="e#1799#1861#0" expanded="false" />
+            <element signature="e#1918#2351#0" expanded="false" />
+            <element signature="e#2015#2337#0" expanded="false" />
+            <element signature="e#2060#2134#0" expanded="false" />
+            <element signature="e#2159#2319#0" expanded="false" />
+            <element signature="e#2451#3503#0" expanded="false" />
+            <element signature="e#2499#2723#0" expanded="false" />
+            <element signature="e#2861#3490#0" expanded="false" />
+            <element signature="e#2958#3010#0" expanded="false" />
+            <element signature="e#3051#3179#0" expanded="false" />
+            <element signature="e#3085#3161#0" expanded="false" />
+            <element signature="e#3236#3459#0" expanded="false" />
+            <element signature="e#3270#3441#0" expanded="false" />
+            <element signature="e#3341#3410#0" expanded="false" />
+            <element signature="e#3538#3844#0" expanded="false" />
+            <element signature="e#3574#3834#0" expanded="false" />
+            <element signature="e#3638#3761#0" expanded="false" />
+            <element signature="e#3878#4017#0" expanded="false" />
+            <element signature="e#3904#4007#0" expanded="false" />
+            <element signature="e#4052#4432#0" expanded="false" />
+            <element signature="e#4167#4265#0" expanded="false" />
+            <element signature="e#4328#4422#0" expanded="false" />
+            <element signature="e#4474#5827#0" expanded="false" />
+            <element signature="e#4538#4621#0" expanded="false" />
+            <element signature="e#4700#4859#0" expanded="false" />
+            <element signature="e#4964#5112#0" expanded="false" />
+            <element signature="e#4989#5098#0" expanded="false" />
+            <element signature="e#5132#5817#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -780,6 +829,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48652694">
           <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -832,13 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/OnBack.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/utils/http.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -869,25 +912,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/UserInfoShow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/assets/scripts/GameNetMgr.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36317137">
           <caret line="554" column="33" selection-start-line="554" selection-start-column="31" selection-end-line="554" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/creator.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="529.0">
-          <caret line="6875" column="16" selection-start-line="6875" selection-start-column="16" selection-end-line="6875" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -909,16 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/assets/scripts/Utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding>
-            <marker date="1509117494713" expanded="true" signature="9:2626" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/hall_server/client_service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -931,14 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="720" column="44" selection-start-line="720" selection-start-column="44" selection-end-line="720" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/WaitingConnection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -970,18 +981,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/Hall.js">
+    <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/WaitingConnection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-33.38983">
-          <caret line="219" column="16" selection-start-line="219" selection-start-column="8" selection-end-line="219" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/MJGame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.97159094">
+          <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/creator.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56804734">
+          <caret line="4862" column="8" selection-start-line="4862" selection-start-column="8" selection-end-line="4862" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/library/bundle.project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="227.571">
+          <caret line="7342" column="6" selection-start-line="7342" selection-start-column="6" selection-end-line="7342" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/AppStart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58900523">
-          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/assets/scripts/Utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/OnBack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/UserInfoShow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/assets/scripts/components/Hall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5439094">
+          <caret line="211" column="127" selection-start-line="211" selection-start-column="127" selection-end-line="211" selection-end-column="127" />
           <folding />
         </state>
       </provider>

@@ -2284,11 +2284,6 @@
     "meta": 1509117510265,
     "relativePath": "scripts\\components\\TimePointer.js"
   },
-  "fe4f1e82-026a-4195-9a61-9e9b07d444ef": {
-    "asset": 1509030928150,
-    "meta": 1509117510285,
-    "relativePath": "scripts\\components\\UserInfoShow.js"
-  },
   "f6db9cf4-0b17-44ce-9455-814e7af5d0ee": {
     "asset": 1507994068938,
     "meta": 1509117510299,
@@ -2639,14 +2634,19 @@
     "meta": 1509117510645,
     "relativePath": "scripts\\Utils.js"
   },
+  "b688b658-a057-49c4-a136-4ed766379481": {
+    "asset": 1509124089748,
+    "meta": 1509124204829,
+    "relativePath": "scripts\\components\\AppStart.js"
+  },
   "6edb38e3-c7e1-417a-94b5-9a4d71283176": {
-    "asset": 1509119069181,
-    "meta": 1509119069446,
+    "asset": 1509124943984,
+    "meta": 1509124944117,
     "relativePath": "scripts\\components\\Hall.js"
   },
-  "b688b658-a057-49c4-a136-4ed766379481": {
-    "asset": 1509123654713,
-    "meta": 1509123654840,
-    "relativePath": "scripts\\components\\AppStart.js"
+  "fe4f1e82-026a-4195-9a61-9e9b07d444ef": {
+    "asset": 1509126660284,
+    "meta": 1509126660379,
+    "relativePath": "scripts\\components\\UserInfoShow.js"
   }
 }
