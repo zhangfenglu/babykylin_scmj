@@ -11,7 +11,7 @@ cc.Class({
         //    displayName: 'Foo', // optional
         //    readonly: false,    // optional, default is false
         // },
-        // ...
+        // ... 
     },
 
     addClickEvent:function(node,target,component,handler){
@@ -41,6 +41,23 @@ cc.Class({
             onKeyPressed:  function(keyCode, event){
             },
             onKeyReleased: function(keyCode, event){
+                console.log("KEY==========================" + keyCode);
+                if(cc.sys.os == cc.sys.OS_WINDOWS)
+                {
+                    if(keyCode == 82){
+                        cc.vv.alert.show('提示','确定要重进游戏吗？',function(){
+                            cc.director.loadScene("hall");
+                        },true);
+                        return;
+                    }
+                    if(keyCode == 27)
+                    {
+                        cc.vv.alert.show('提示','确定要退出游戏吗？',function(){
+                            cc.game.end();
+                        },true);
+                        return;
+                    }
+                }
                 if(keyCode == cc.KEY.back){
                     cc.vv.alert.show('提示','确定要退出游戏吗？',function(){
                         cc.game.end();

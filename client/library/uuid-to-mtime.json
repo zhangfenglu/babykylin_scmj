@@ -2100,8 +2100,8 @@
     "relativePath": "scenes\\createrole.fire"
   },
   "efb1084f-0b5a-4980-b187-1e949555cb55": {
-    "asset": 1509018675381,
-    "meta": 1509018675439,
+    "asset": 1509086829459,
+    "meta": 1509086829557,
     "relativePath": "scenes\\hall.fire"
   },
   "4a1acad9-ce88-4334-aa62-bf23a5ccc79e": {
@@ -2324,11 +2324,6 @@
     "meta": 1508984213461,
     "relativePath": "scripts\\ReplayMgr.js"
   },
-  "b717fcf0-c348-4dcc-8aaf-35b6f5b7dc31": {
-    "asset": 1508929577965,
-    "meta": 1508984213539,
-    "relativePath": "scripts\\Utils.js"
-  },
   "1f06645b-2c0c-4a18-966d-90314eda4abf": {
     "asset": 1508929577966,
     "meta": 1508984213539,
@@ -2423,11 +2418,6 @@
     "asset": 1509011220511,
     "meta": 1509011325883,
     "relativePath": "scripts\\UserMgr.js"
-  },
-  "6edb38e3-c7e1-417a-94b5-9a4d71283176": {
-    "asset": 1509023382738,
-    "meta": 1509023382910,
-    "relativePath": "scripts\\components\\Hall.js"
   },
   "f8e6b000-5643-4b86-9080-aa680ce1f599": {
     "asset": 1479817312879,
@@ -2648,5 +2638,15 @@
     "asset": 1478085606000,
     "meta": 1509019957937,
     "relativePath": "prefab\\webview.prefab"
+  },
+  "b717fcf0-c348-4dcc-8aaf-35b6f5b7dc31": {
+    "asset": 1509092254942,
+    "meta": 1509092335040,
+    "relativePath": "scripts\\Utils.js"
+  },
+  "6edb38e3-c7e1-417a-94b5-9a4d71283176": {
+    "asset": 1509092544250,
+    "meta": 1509092544420,
+    "relativePath": "scripts\\components\\Hall.js"
   }
 }

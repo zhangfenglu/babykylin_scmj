@@ -25,8 +25,7 @@ cc.Class({
         //    displayName: 'Foo', // optional
         //    readonly: false,    // optional, default is false
         // },
-        // ...
-        
+        // ...  
     },
     
     initNetHandlers:function(){
@@ -112,7 +111,7 @@ cc.Class({
             }
             else{
                 if(ret.gems != null){
-                    this.lblGems.string = ret.gems;    
+                    this.lblGems.string = ret.gems;
                 }
             }
         };
@@ -132,7 +131,14 @@ cc.Class({
             }
             else{
                 cc.vv.userMgr.gemstip.version = ret.version;
-                cc.vv.userMgr.gemstip.msg = ret.msg.replace("<newline>","\n");
+                var strArray = ret.msg.split("，");
+                var strs = "";
+                for(var i=0;i<strArray.length;i++)
+                {
+                    strs += strArray[i] + "\n\t";
+                }
+                //cc.vv.userMgr.gemstip.msg = ret.msg.replace("<newline>","\n");
+                cc.find("Canvas/ads/New Label").getComponent(cc.Label).string = strs;
             }
         };
         

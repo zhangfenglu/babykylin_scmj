@@ -3,7 +3,7 @@ cc._RFpush(module, 'b717fzww0hNzIqvNbb1t9wx', 'Utils');
 // scripts\Utils.js
 
 cc.Class({
-    'extends': cc.Component,
+    "extends": cc.Component,
 
     properties: {
         // foo: {
@@ -44,6 +44,21 @@ cc.Class({
             event: cc.EventListener.KEYBOARD,
             onKeyPressed: function onKeyPressed(keyCode, event) {},
             onKeyReleased: function onKeyReleased(keyCode, event) {
+                console.log("KEY==========================" + keyCode);
+                if (cc.sys.os == cc.sys.OS_WINDOWS) {
+                    if (keyCode == 82) {
+                        cc.vv.alert.show('提示', '确定要重进游戏吗？', function () {
+                            cc.director.loadScene("hall");
+                        }, true);
+                        return;
+                    }
+                    if (keyCode == 27) {
+                        cc.vv.alert.show('提示', '确定要退出游戏吗？', function () {
+                            cc.game.end();
+                        }, true);
+                        return;
+                    }
+                }
                 if (keyCode == cc.KEY.back) {
                     cc.vv.alert.show('提示', '确定要退出游戏吗？', function () {
                         cc.game.end();
