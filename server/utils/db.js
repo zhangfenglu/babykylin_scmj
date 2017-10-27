@@ -714,7 +714,8 @@ exports.get_message = function(type,version,callback){
     
     if(version){
         version = '"' + version + '"';
-        sql += ' AND version != ' + version;   
+        //sql += ' AND version != ' + version;
+        sql += ' AND version = ' + version;
     }
      
     query(sql, function(err, rows, fields) {
