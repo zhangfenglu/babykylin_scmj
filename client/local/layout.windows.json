@@ -84,14 +84,14 @@
         "snapshot": true,
         "type": "dock-h"
       },
-      "x": 350,
-      "y": 55,
+      "x": 35,
+      "y": 16,
       "width": 1423,
       "height": 937
     },
     "worker": {
       "x": 760,
-      "y": 390,
+      "y": 370,
       "width": 400,
       "height": 300
     }

@@ -1,7 +1,7 @@
 function urlParse(){
     var params = {};
     if(window.location == null){
-        return params;
+        return params; 
     }
     var name,value; 
     var str=window.location.href; //取得整个地址栏
@@ -55,6 +55,10 @@ function initMgr(){
     //cc.vv.mjutil = new MJUtil();
     
     cc.args = urlParse();
+
+
+    //新增静态变量 并加入注释
+    cc.vv.wc = null; //正在登陆游戏时的 加载窗口
 }
     
 

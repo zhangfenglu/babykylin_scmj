@@ -90,7 +90,15 @@ cc.Class({
             };
         }
 
+        if (!cc.vv.userMgr.gongGao) {
+            cc.vv.userMgr.gongGao = {
+                version: null,
+                msg: "数据请求中……"
+            };
+        }
+
         this.lblNotice.string = cc.vv.userMgr.notice.msg;
+        cc.find("Canvas/ads/New Label").getComponent(cc.Label).string = cc.vv.userMgr.gongGao.msg;
 
         this.refreshInfo();
         this.refreshNotice();
@@ -133,6 +141,7 @@ cc.Class({
                     strs += strArray[i] + "\n\t";
                 }
                 //cc.vv.userMgr.gemstip.msg = ret.msg.replace("<newline>","\n");
+                cc.vv.userMgr.gongGao.msg = strs;
                 cc.find("Canvas/ads/New Label").getComponent(cc.Label).string = strs;
             }
         };

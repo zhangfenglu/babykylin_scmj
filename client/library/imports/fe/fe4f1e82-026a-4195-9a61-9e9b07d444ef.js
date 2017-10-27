@@ -28,13 +28,13 @@ cc.Class({
         cc.vv.userinfoShow = this;
     },
 
-    show: function show(name, userId, iconSprite, sex, ip) {
-        if (userId != null && userId > 0) {
+    show: function show(name, uid, iconSprite, sex, ip) {
+        if (uid != null && uid > 0) {
             this._userinfo.active = true;
             this._userinfo.getChildByName("icon").getComponent(cc.Sprite).spriteFrame = iconSprite.spriteFrame;
             this._userinfo.getChildByName("name").getComponent(cc.Label).string = name;
             this._userinfo.getChildByName("ip").getComponent(cc.Label).string = "IP: " + ip.replace("::ffff:", "");
-            this._userinfo.getChildByName("id").getComponent(cc.Label).string = "ID: " + userId;
+            this._userinfo.getChildByName("id").getComponent(cc.Label).string = "ID: " + uid;
 
             var sex_female = this._userinfo.getChildByName("sex_female");
             sex_female.active = false;
