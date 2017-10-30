@@ -2145,8 +2145,8 @@
     "relativePath": "scripts\\AudioMgr.js"
   },
   "8a998931-01bf-4b06-adc1-433bf2a620d8": {
-    "asset": 1509117494714,
-    "meta": 1509117509021,
+    "asset": 1509126446914,
+    "meta": 1509163682388,
     "relativePath": "scripts\\components"
   },
   "c1255dec-c42c-46fe-89f4-073eeb917d1f": {
@@ -2163,11 +2163,6 @@
     "asset": 1507994068920,
     "meta": 1509117509152,
     "relativePath": "scripts\\components\\CheckBox.js"
-  },
-  "eec071ec-2f8a-419f-9fcf-893dd26017b0": {
-    "asset": 1507994068921,
-    "meta": 1509117509262,
-    "relativePath": "scripts\\components\\CreateRoom.js"
   },
   "90758d9a-c0d2-459e-86c2-fe664614b06a": {
     "asset": 1507994068922,
@@ -2648,5 +2643,10 @@
     "asset": 1509126660284,
     "meta": 1509126660379,
     "relativePath": "scripts\\components\\UserInfoShow.js"
+  },
+  "eec071ec-2f8a-419f-9fcf-893dd26017b0": {
+    "asset": 1509287176639,
+    "meta": 1509291668437,
+    "relativePath": "scripts\\components\\CreateRoom.js"
   }
 }

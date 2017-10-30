@@ -112,6 +112,7 @@ cc.Class({
         }
         conf.type = type;
 
+        console.log("创建房间的参数：" + JSON.stringify(conf));
         var data = {
             account: cc.vv.userMgr.account,
             sign: cc.vv.userMgr.sign,
@@ -135,6 +136,18 @@ cc.Class({
         var zuidafanshu = this.getSelectedOfRadioGroup('zuidafanshu');
         var jushuxuanze = this.getSelectedOfRadioGroup('xuanzejushu');
         var dianganghua = this.getSelectedOfRadioGroup('dianganghua');
+
+        switch (difen) {
+            case 0:
+                difen = 1;
+                break;
+            case 1:
+                difen = 2;
+                break;
+            case 2:
+                difen = 5;
+                break;
+        }
 
         var conf = {
             difen: difen,

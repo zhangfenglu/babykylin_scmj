@@ -65,7 +65,12 @@ function constructRoomFromDb(dbdata){
 	return roomInfo;
 }
 
+function isUndefined(obj) {
+	return obj === void 0;
+}
+
 exports.createRoom = function(creator,roomConf,gems,ip,port,callback){
+	console.log("开始创建 具体的 房间");
 	if(
 		roomConf.type == null
 		|| roomConf.difen == null
@@ -81,25 +86,40 @@ exports.createRoom = function(creator,roomConf,gems,ip,port,callback){
 		return;
 	}
 
-	if(roomConf.difen < 0 || roomConf.difen > DI_FEN.length){
-		callback(1,null);
-		return;
-	}
+	tData = {};
+	tData.type = isUndefined(roomConf.type) ? "xzdd" : roomConf.type;//玩法类型
+	tData.baseScore = isUndefined(roomConf.difen) ? 0 : roomConf.difen;//底分
+	tData.zimo = isUndefined(roomConf.zimo) ? 0 : roomConf.zimo;//自摸（0：自摸加底 1：自摸加番）
+	tData.jiangdui = isUndefined(roomConf.jiangdui) ? false : roomConf.jiangdui;//将对
+	tData.hsz = isUndefined(roomConf.huansanzhang) ? false : roomConf.huansanzhang;//换三张
+	tData.maxFan = isUndefined(roomConf.zuidafanshu) ? 3 : roomConf.zuidafanshu;//最大番数
+	tData.maxGames = isUndefined(roomConf.jushuxuanze) ? 4 : roomConf.jushuxuanze;//局数
+	tData.dianganghua = isUndefined(roomConf.dianganghua) ? 0 : roomConf.dianganghua;//点杠花（0：点炮 1：自摸）
+	tData.menqing = isUndefined(roomConf.menqing) ? false : roomConf.menqing;//门清、中张
+	tData.tiandihu = isUndefined(roomConf.tiandihu) ? false : roomConf.tiandihu;//天地胡
+	tData.creator = isUndefined(creator) ? 0 : creator;//创建人的id
+	tData.maxPlayer = isUndefined(roomConf.maxPlayer) ? 4 : roomConf.maxPlayer;//玩家人数
 
-	if(roomConf.zimo < 0 || roomConf.zimo > 2){
-		callback(1,null);
-		return;
-	}
 
-	if(roomConf.zuidafanshu < 0 || roomConf.zuidafanshu > MAX_FAN.length){
-		callback(1,null);
-		return;
-	}
-
-	if(roomConf.jushuxuanze < 0 || roomConf.jushuxuanze > JU_SHU.length){
-		callback(1,null);
-		return;
-	}
+	//if(roomConf.difen < 0 || roomConf.difen > DI_FEN.length){
+	//	callback(1,null);
+	//	return;
+	//}
+    //
+	//if(roomConf.zimo < 0 || roomConf.zimo > 2){
+	//	callback(1,null);
+	//	return;
+	//}
+    //
+	//if(roomConf.zuidafanshu < 0 || roomConf.zuidafanshu > MAX_FAN.length){
+	//	callback(1,null);
+	//	return;
+	//}
+    //
+	//if(roomConf.jushuxuanze < 0 || roomConf.jushuxuanze > JU_SHU.length){
+	//	callback(1,null);
+	//	return;
+	//}
 	
 	var cost = JU_SHU_COST[roomConf.jushuxuanze];
 	if(cost > gems){
@@ -129,19 +149,20 @@ exports.createRoom = function(creator,roomConf,gems,ip,port,callback){
 						createTime:createTime,
 						nextButton:0,
 						seats:[],
-						conf:{
-							type:roomConf.type,
-							baseScore:DI_FEN[roomConf.difen],
-						    zimo:roomConf.zimo,
-						    jiangdui:roomConf.jiangdui,
-						    hsz:roomConf.huansanzhang,
-						    dianganghua:parseInt(roomConf.dianganghua),
-						    menqing:roomConf.menqing,
-						    tiandihu:roomConf.tiandihu,
-						    maxFan:MAX_FAN[roomConf.zuidafanshu],
-						    maxGames:JU_SHU[roomConf.jushuxuanze],
-						    creator:creator,
-						}
+						//conf:{
+						//	type:roomConf.type,
+						//	baseScore:DI_FEN[roomConf.difen],
+						//    zimo:roomConf.zimo,
+						//    jiangdui:roomConf.jiangdui,
+						//    hsz:roomConf.huansanzhang,
+						//    dianganghua:parseInt(roomConf.dianganghua),
+						//    menqing:roomConf.menqing,
+						//    tiandihu:roomConf.tiandihu,
+						//    maxFan:MAX_FAN[roomConf.zuidafanshu],
+						//    maxGames:JU_SHU[roomConf.jushuxuanze],
+						//    creator:creator,
+						//}
+						conf:tData
 					};
 					
 					if(roomConf.type == "xlch"){
@@ -152,7 +173,7 @@ exports.createRoom = function(creator,roomConf,gems,ip,port,callback){
 					}
 					console.log(roomInfo.conf);
 					
-					for(var i = 0; i < 4; ++i){
+					for(var i = 0; i < tData.maxPlayer; ++i){
 						roomInfo.seats.push({
 							userId:0,
 							score:0,

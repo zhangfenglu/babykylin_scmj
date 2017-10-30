@@ -96,6 +96,7 @@ exports.createRoom = function(account,userId,roomConf,fnCallback){
 	}
 	
 	db.get_gems(account,function(data){
+		console.log("查询该账户 在数据库里 房卡数量=" + data.gems);
 		if(data != null){
 			//2、请求创建房间
 			var reqdata = {
@@ -104,10 +105,12 @@ exports.createRoom = function(account,userId,roomConf,fnCallback){
 				conf:roomConf
 			};
 			reqdata.sign = crypto.md5(userId + roomConf + data.gems + config.ROOM_PRI_KEY);
+			console.log("md5加密数据");
 			http.get(serverinfo.ip,serverinfo.httpPort,"/create_room",reqdata,function(ret,data){
 				//console.log(data);
 				if(ret){
 					if(data.errcode == 0){
+						console.log("向客户端发送 创建的房间：" + data.roomid);
 						fnCallback(0,data.roomid);
 					}
 					else{

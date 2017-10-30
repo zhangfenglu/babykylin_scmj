@@ -125,7 +125,7 @@ app.get('/create_private_room',function(req,res){
 	}
 
 	var account = data.account;
-
+	console.log("接受到客户端用户account=" + data.account + " 创建房间请求");
 	data.account = null;
 	data.sign = null;
 	var conf = data.conf;
@@ -136,6 +136,7 @@ app.get('/create_private_room',function(req,res){
 		}
 		var userId = data.userid;
 		var name = data.name;
+		console.log("从数据库中 成功查询 该账户对用的 userid = " + userId);
 		//验证玩家状态
 		db.get_room_id_of_user(userId,function(roomId){
 			if(roomId != null){
@@ -144,6 +145,7 @@ app.get('/create_private_room',function(req,res){
 			}
 			//创建房间
 			room_service.createRoom(account,userId,conf,function(err,roomId){
+				console.log("创建房间roomId=" + roomId + " 成功！！");
 				if(err == 0 && roomId != null){
 					room_service.enterRoom(userId,name,roomId,function(errcode,enterInfo){
 						if(enterInfo){
