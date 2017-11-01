@@ -274,11 +274,13 @@ exports.enterRoom = function(roomId,userId,userName,callback){
 		return 1;	
 	}
 	var room = rooms[roomId];
+	//从内存中 去寻找房间数据
 	if(room){
 		var ret = fnTakeSeat(room);
 		callback(ret);
 	}
 	else{
+		//内存中找不到房间数据 就从数据库里寻找房间数据
 		db.get_room_data(roomId,function(dbdata){
 			if(dbdata == null){
 				//找不到房间
@@ -286,6 +288,7 @@ exports.enterRoom = function(roomId,userId,userName,callback){
 			}
 			else{
 				//construct room.
+				//从数据库中恢复 房间数据 并进入房间
 				room = constructRoomFromDb(dbdata);
 				//
 				var ret = fnTakeSeat(room);
